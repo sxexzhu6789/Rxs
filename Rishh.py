@@ -206,7 +206,7 @@ def _console_print_repeated(key, text, interval=30.0):
     while len(_repeated_console_logs) > 256:
         _repeated_console_logs.popitem(last=False)
 
-_DEFAULT_OWNER_ID = 6002928421
+_DEFAULT_OWNER_ID = 8961321286
 try:
     OWNER_ID = int(os.environ.get("OWNER_ID", str(_DEFAULT_OWNER_ID)).strip())
 except Exception:
